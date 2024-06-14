@@ -10,6 +10,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "text/plain")
 	fmt.Fprintf(w, "Aplicacao exemplo")
+	fmt.Fprintf(w, "Versao 1.0")
 }
 
 func main() {
